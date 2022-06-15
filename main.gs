@@ -1,7 +1,6 @@
 var line_endpoint = "https://api.line.me/v2/bot/message/reply";
 var url = "https://api.line.me/v2/bot/message/reply";
-//line送受信
-var linesheet = "1kJwVsB4TdDmM0CVrRP7PJq9qSkIam3ZZcEbbUYaMKHI"
+
 var sheet = SpreadsheetApp.openById(linesheet).getSheetByName('ログ');
 var question = SpreadsheetApp.openById(linesheet).getSheetByName('問題');
 var database = SpreadsheetApp.openById(linesheet).getSheetByName('回答一覧');
